@@ -9,5 +9,9 @@ pipeline{
               sh "mvn clean package"
             }
         }
+        stage("upload artifacts"){
+            steps{
+               
+            }
     }
 }
